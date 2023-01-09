@@ -1,0 +1,34 @@
+#figuras {
+  list-style: none;
+}
+
+.arriba {
+  transform: scale(1.2);
+}
+
+.abajo {
+  transform: scale(0.8);
+}
+.borde {
+  border: 1px solid red;
+}
+.card-title,
+.card-text {
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.card {
+  display: none;
+  width: 50%;
+}
+button {
+  margin-top: 10px;
+}
+button:hover {
+  background: #000;
+  color: aliceblue;
+}
