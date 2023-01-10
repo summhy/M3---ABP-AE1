@@ -17,117 +17,97 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <div class="text-center">
       <map name="mapa" class="figuras">
-        <area
-          shape="circle"
-          coords="40,100,15"
-          href=""
-          onmouseover="showData('1')"
-          onmouseout="hiddenData()"
-        />
+        <area shape="circle" coords="40,100,15" href=""
+        onmouseover="showData('1')" " />
         <area
           shape="circle"
           coords="90,100,15"
           href=""
           onmouseover="showData('2')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="rectangle"
           coords="150,50,230,130"
           href=""
           onmouseover="showData('3')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="rectangle"
           coords="270,50,390,150"
           href=""
           onmouseover="showData('4')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="rectangle"
           coords="400,100,490,160"
           href=""
           onmouseover="showData('5')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="circle"
           coords="510,140,20"
           href=""
           onmouseover="showData('6')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="circle"
           coords="550,130,20"
           href=""
           onmouseover="showData('7')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="circle"
           coords="580,140,20"
           href=""
           onmouseover="showData('8')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="circle"
           coords="620,160,20"
           href=""
           onmouseover="showData('9')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="circle"
           coords="660,170,15"
           href=""
           onmouseover="showData('10')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="circle"
           coords="695,170,15"
           href=""
           onmouseover="showData('11')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="circle"
           coords="750,180,30"
           href=""
           onmouseover="showData('12')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="circle"
           coords="800,190,15"
           href=""
           onmouseover="showData('13')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="rectangle"
           coords="825,175,925,215"
           href=""
           onmouseover="showData('14')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="rectangle"
           coords="950,175,1155,255"
           href=""
           onmouseover="showData('15')"
-          onmouseout="hiddenData()"
         />
         <area
           shape="rectangle"
           coords="1180,125,1450,255"
           href=""
           onmouseover="showData('16')"
-          onmouseout="hiddenData()"
         />
       </map>
 
@@ -153,7 +133,8 @@
               rows="4"
               value=""
             ></textarea>
-            <input id="image-region" type="file" value="" />
+            <label for="image-input">Imagen:</label>
+            <input id="image-input" name="image-input" type="text" />
             <div id="button-update">Modificar</div>
           </div>
         </div>
